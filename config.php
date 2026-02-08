@@ -5,10 +5,10 @@ if (!$conn) {
     die("Connection failed");
 }
 
-$sql = "CREATE DATABASE IF NOT EXISTS File6_db";
+$sql = "CREATE DATABASE IF NOT EXISTS file_login_db";
 mysqli_query($conn, $sql);
 
-mysqli_select_db($conn, "File6_db");
+mysqli_select_db($conn, "file_login_db");
 
 $table = "CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
