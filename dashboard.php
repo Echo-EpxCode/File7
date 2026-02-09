@@ -17,7 +17,7 @@ if (!isset($_SESSION['user_id'])) {
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-400 via-green-500 to-emerald-600">
+<body class="min-h-screen flex items-center justify-center" style="background-image: url('fireworks-bg.png');">
 
 <!-- Main Content -->
 <div class="flex items-center justify-center mt-16 px-4">

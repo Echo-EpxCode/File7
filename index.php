@@ -43,7 +43,7 @@ if (isset($_POST['login'])) {
 <div class="w-full max-w-md bg-white rounded-lg shadow-lg p-8">
 
     <h2 class="text-3xl font-bold text-center text-gray-800 mb-6">
-        Login
+    Access Your Account
     </h2>
 
     <?php if(!empty($error)): ?>
