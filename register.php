@@ -16,7 +16,8 @@ if (isset($_POST['register'])) {
         $error = "Email already exists!";
     } else {
         mysqli_query($conn, "INSERT INTO users(username,email,password) VALUES('$username','$email','$password')");
-        $success = "Registration successful! <a href='index.php' class='underline font-medium'>Login here</a>";
+        header("Location: index.php");
+        exit;
     }
 }
 ?>
